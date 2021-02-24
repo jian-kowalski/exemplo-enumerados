@@ -37,7 +37,7 @@ var
 begin
   nPorcentagem :=
     GetPorcentagemImpostoRenda(tImpostoDeRenda(cbImpostoRenda.ItemIndex));
-  ShowMessage('A porcentagem é: ' + FloatToStr(nPorcentagem));
+  ShowMessage('A porcentagem é: ' + FloatToStr(nPorcentagem) +'%');
 end;
 
 function TFrmPrincipal.GetPorcentagemImpostoRenda(
